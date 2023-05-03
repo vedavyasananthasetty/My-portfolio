@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import port from '../public/assets/projects/port.png'
+import port from '/public/assets/projects/port.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

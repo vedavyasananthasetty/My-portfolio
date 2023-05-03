@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import pact from '../public/assets/projects/pact.png'
+import pact from '/public/assets/projects/pact.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

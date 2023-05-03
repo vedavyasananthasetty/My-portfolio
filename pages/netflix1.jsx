@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import netflix from '../public/assets/projects/netflix.png'
+import netflix from '/public/assets/projects/netflix.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

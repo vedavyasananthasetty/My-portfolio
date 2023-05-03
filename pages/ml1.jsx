@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import mml from '../public/assets/projects/mml.png'
+import mml from '/public/assets/projects/mml.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
