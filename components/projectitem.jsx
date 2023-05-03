@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 
-const ProjectItem = ({title, backgroundImg, projectUrl, desc}) => {
+const projectitem = ({title, backgroundImg, projectUrl, desc}) => {
   return (
     
       <div className='relative flex items-center justify-center h-auto w-full shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-rose-400 to-rose-100'>
@@ -23,4 +23,4 @@ const ProjectItem = ({title, backgroundImg, projectUrl, desc}) => {
   )
 }
 
-export default ProjectItem
+export default projectitem

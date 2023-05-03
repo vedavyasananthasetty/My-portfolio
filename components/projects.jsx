@@ -1,12 +1,12 @@
 import React from 'react'
 import netflix from '/public/assets/projects/netflix.png'
 import pact from '/public/assets/projects/pact.png'
-import ProjectItem from './ProjectItem'
+import ProjectItem from './projectitem'
 import mml from '/public/assets/projects/mml.png'
 import port from '/public/assets/projects/port.png'
 
 
-const Projects = () => {
+const projects = () => {
   return (
     <div id='projects' className='w-full pt-16'>
       <div className='max-w-[1240] mx-auto px-2 py-16'>
@@ -25,4 +25,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default projects

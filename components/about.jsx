@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Link from 'next/link'
-const About = () => {
+const about = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-10'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -33,4 +33,4 @@ const About = () => {
   )
 }
 
-export default About
+export default about
