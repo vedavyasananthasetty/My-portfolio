@@ -26,7 +26,7 @@ const Main = () => {
               
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 courser-pointer hover:scale-110 ease-in duration-300'>
-              {/* <Link href='mailto:a.vedavyas12@yahoo.com'><AiOutlineMail /></Link> */}
+              
               <a href="mailto:a.vedavyas12@yahoo.com"><AiOutlineMail /></a>
               
             </div>

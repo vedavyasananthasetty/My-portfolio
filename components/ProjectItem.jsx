@@ -1,10 +1,7 @@
 import React from 'react'
-import netflix from '../public/assets/projects/netflix.png'
-import PaCt from '../public/assets/projects/PaCt.png'
 import Link from 'next/link'
 import Image from 'next/image'
-import mml from '../public/assets/projects/mml.png'
-import port from '../public/assets/projects/port.png'
+
 
 
 

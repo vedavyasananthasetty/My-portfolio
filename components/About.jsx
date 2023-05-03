@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link'
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <img className='rounded-xl' src="https://scontent.fhyd1-3.fna.fbcdn.net/v/t1.6435-9/118867103_356203462433435_888147136628498698_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8uT0xexYl6gAX9xMTyq&_nc_ht=scontent.fhyd1-3.fna&oh=00_AfDiezSonh3xCr-EEVU0fxWdDcLOV5Nr_chLfOMxilbcoA&oe=64760FC7" alt="" />
-          {/* <Image src='/../public/assets/my.jpg' height='250' width='250' alt='/'/> */}
+          
         </div>
       </div>
     </div>
