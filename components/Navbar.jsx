@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 import vedImg from '/public/assets/ved.png'
 
 
-const navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
   const [navBg, setNavBg] = useState('#ecf0f3')
@@ -138,4 +138,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

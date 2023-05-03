@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-const contact = () => {
+const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -96,4 +96,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

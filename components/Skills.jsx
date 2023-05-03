@@ -24,7 +24,7 @@ import cssImg from '/public/assets/skills/css.png'
 import csImg from '/public/assets/skills/cs.png'
 
 
-const skills = () => {
+const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
@@ -259,4 +259,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Skills
