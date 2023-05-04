@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import mml from '/public/assets/projects/mml.png'
-import {RiRadioButtonFill} from 'react-icons/ri'
+// import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
+import CircleIcon from '@mui/icons-material/Circle'
 
 
 
@@ -43,10 +44,10 @@ verses.</p>
             <div className='p-2'>
               <p className='text-center font-bold pb-2'>Technologies</p>
               <div className='grid grid-cols-3 md:grid-cols-1'>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Python</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Tkinter</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Flask</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Machine Learning Algorithms</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Python</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Tkinter</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Flask</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Machine Learning Algorithms</p>
               </div>
             </div>
           </div>

@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import pact from '/public/assets/projects/pact.png'
-import {RiRadioButtonFill} from 'react-icons/ri'
+// import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
+import CircleIcon from '@mui/icons-material/Circle'
+
 
 
 
@@ -33,13 +35,13 @@ const pact1 = () => {
             <div className='p-2'>
               <p className='text-center font-bold pb-2'>Technologies</p>
               <div className='grid grid-cols-3 md:grid-cols-1'>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>ReactJS</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>NodeJS</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>MongoDB</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>ExpressJS</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>REST API</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Authentication (JWT)</p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Bootstrap</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>ReactJS</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>NodeJS</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>MongoDB</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>ExpressJS</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>REST API</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Authentication (JWT)</p>
+                <p className='text-gray-600 py-2 flex items-center'><CircleIcon className='pr-1'/>Bootstrap</p>
               </div>
             </div>
           </div>
