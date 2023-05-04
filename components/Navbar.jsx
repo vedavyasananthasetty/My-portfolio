@@ -2,11 +2,20 @@
 import {React, useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
-import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import { useRouter } from 'next/router';
+// import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
+// import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
+// import {BsFillPersonLinesFill} from 'react-icons/bs'
+// import { useRouter } from 'next/router';
 import vedImg from '/public/assets/ved.png'
+import { useRouter } from 'next/router';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import ArticleIcon from '@mui/icons-material/Article'
+import EmailIcon from '@mui/icons-material/Email'
+import MenuIcon from '@mui/icons-material/Menu'
+import CloseIcon from '@mui/icons-material/Close'
+
+
 
 
 const Navbar = () => {
@@ -73,7 +82,7 @@ const Navbar = () => {
           </Link>
         </ul>
         <div onClick={handleNav} className='md:hidden cursor-pointer'>
-          <AiOutlineMenu size={25}/>
+        <MenuIcon size={25}/>
         </div>
       </div>
       </div>
@@ -88,7 +97,7 @@ const Navbar = () => {
               </Link>
               
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
-                <AiOutlineClose/>
+              <CloseIcon/>
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
@@ -114,20 +123,40 @@ const Navbar = () => {
               </Link>
             </ul>
 
-            <div className='pt-40'>
+            {/* <div className='pt-40'>
               <p className='uppercase tracking-widest text-rose-500'>Reach out to me</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
-                <FaLinkedinIn/>
+                <LinkedInIcon/>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
-                <FaGithub/>
+                <GitHubIcon/>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
-                <AiOutlineMail/>
+                <EmailIcon/>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+                <Link href={'https://www.linkedin.com/in/vedavyasananthasetty/overlay/1635525369948/single-media-viewer?type=DOCUMENT&profileId=ACoAAB-1MXsBjz4wVuK9I4p5w-pCuXDADVyVk70&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdCuNniJzQyaO1yp4%2BNOsfg%3D%3D/'}><ArticleIcon /></Link>
+                </div>
+              </div>
+            </div> */}
+            <div className='pt-16'>
+              <p className='uppercase tracking-widest text-rose-500'>Reach out to me</p>
+              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
+                <Link href='https://www.linkedin.com/in/vedavyasananthasetty/'><LinkedInIcon /></Link>
+
+                </div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
+                <Link href='https://github.com/vedavyasananthasetty'><GitHubIcon /></Link>
+
+                </div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
+                <a href="mailto:a.vedavyas12@yahoo.com"><EmailIcon /></a>
+
+                </div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-3 courser-pointer hover:scale-105 ease-in duration-300'>
+                <Link href={'https://www.linkedin.com/in/vedavyasananthasetty/overlay/1635525369948/single-media-viewer?type=DOCUMENT&profileId=ACoAAB-1MXsBjz4wVuK9I4p5w-pCuXDADVyVk70&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdCuNniJzQyaO1yp4%2BNOsfg%3D%3D/'}><ArticleIcon /></Link>
                 </div>
               </div>
             </div>
